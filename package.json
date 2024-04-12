@@ -1,0 +1,19 @@
+{
+    "name": "llmchat",
+    "version": "0.0.2",
+    "description": "Example agent, please change",
+    "main": "main.js",
+    "openiap": {
+        "daemon": true,
+        "chromium": false,
+        "language": "nodejs",
+        "typescript": false
+    },
+    "scripts": {
+        "updateapi": "npm uninstall @openiap/nodeapi && npm i @openiap/nodeapi"
+    },
+    "dependencies": {
+        "@openiap/nodeapi": "^0.0.31",
+        "openai": "^4.20.1"
+    }
+}
