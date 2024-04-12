@@ -1,7 +1,7 @@
 {
     "name": "llmchat",
     "version": "0.0.2",
-    "description": "Example agent, please change",
+    "description": "Backend project needed when enabling llmchat in openiap flow",
     "main": "main.js",
     "openiap": {
         "daemon": true,
